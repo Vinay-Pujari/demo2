@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.javatechie.app.sonar_example.AppTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.063 s <<< FAILURE! - in com.javatechie.app.sonar_example.AppTest
+initializationError(com.javatechie.app.sonar_example.AppTest)  Time elapsed: 0.013 s  <<< ERROR!
+java.lang.ClassCastException: class junit.framework.TestSuite cannot be cast to class org.junit.Test (junit.framework.TestSuite and org.junit.Test are in unnamed module of loader 'app')
+	at com.javatechie.app.sonar_example.AppTest.suite(AppTest.java:26)
+
